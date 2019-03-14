@@ -5,10 +5,10 @@
     <title>Users</title>
 </head>
 <body>
-<h3>Selected user = ${userById.name}</h3>
+<h3>Selected user = ${userById.username}</h3>
 <h3>All users details:</h3>
 <c:forEach items="${userList}" var="user">
-    <p>${user.name} ${user.age}</p>
+    <p>${user.username} ${user.password}</p>
 </c:forEach>
 <p></p>
 </body>
